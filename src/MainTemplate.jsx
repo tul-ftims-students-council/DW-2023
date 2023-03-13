@@ -1,8 +1,6 @@
 const MainTemplate = ({ children }) => {
   return (
-    <div className="flex min-h-screen w-screen flex-col bg-black">
-      {children}
-    </div>
+    <div className="flex h-screen w-screen flex-col bg-black">{children}</div>
   );
 };
 

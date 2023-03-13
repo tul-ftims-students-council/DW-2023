@@ -45,7 +45,7 @@ const NewsletterForm = () => {
             type="email"
             pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
             placeholder="Wprowadź swój adres email"
-            className="mb-1 w-full rounded-md bg-inherit p-3 text-center sm:mb-0 sm:mr-3 sm:w-7/12"
+            className="mb-1 w-full rounded-md bg-inherit p-3 sm:mb-0 sm:mr-3 sm:w-7/12"
           />
           <button
             className="w-full rounded-md bg-white p-3 font-bold text-black hover:bg-gray-500 hover:text-white sm:w-5/12"

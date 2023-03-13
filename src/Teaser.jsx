@@ -3,8 +3,10 @@ import NewsletterForm from "./NewsletterForm";
 
 const Teaser = () => {
   return (
-    <div className="flex h-auto w-full max-w-4xl flex-auto flex-col items-center justify-center self-center">
-      <img src={logoUrl} alt="DW FTIMS Event Logo" className="w-9/12 " />
+    <div className="flex h-full flex-col items-center justify-center self-center">
+      <div className="flex w-40">
+        <img src={logoUrl} alt="DW FTIMS Event Logo" />
+      </div>
       <h1 className="mb-10 pb-4 text-center text-5xl font-bold text-white sm:text-6xl md:text-7xl lg:text-8xl">
         Coming Soon
       </h1>
